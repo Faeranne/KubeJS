@@ -31,9 +31,7 @@ public class ServerSettings {
 	public boolean logInvalidRecipeHandlers = true;
 	public boolean useOriginalRecipeForFilters = true;
 
-	@HideFromJS
 	public static CommandSourceStack source;
-	@HideFromJS
 	public static JsonObject dataExport;
 
 	public static void exportData() {
